@@ -1,0 +1,7 @@
+# TensorFlowTestLuolu2
+将tensorflow训练好的模型移植到android上
+
+1,使用python在PC上训练好你的模型，保存为pb文件
+2,新建android project，把pb文件放到assets文件夹下
+3,将tensorflow的so文件以及jar包放到libs下
+4,加载库文件，让tensorflow在app中运行起来
